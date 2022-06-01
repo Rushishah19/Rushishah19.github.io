@@ -161,16 +161,24 @@ nav ul li.navi a:hover::before{
  }
 .row .card-text-b{
      /* Image */
-        position: absolute;
+        position: relative;
         width: 100px;
         height: 100px;
-        left: 900px;
-        top: 100px;
-        
+        top: 59px;
+        left: 1010px;
+ }
+ .row .card-text-b .img-src{
+     top: 90px;
+     height: 210px;
+     width: 210px;
+     left: 1000p;
+     border-radius: 20px ;
+     padding: 1px;
+     
  }
 .social-info{
     margin-left: 100px;
-    margin-top: 28%;
+    margin-top: 22%;
 }
 .social-info a{
     font-size: 30px;
